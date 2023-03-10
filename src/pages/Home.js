@@ -6,8 +6,6 @@ const Home = ({name, title}) =>{
         <section className="hero">
             <img src="https://valevets.com/wp-content/uploads/2014/08/kitten1.jpg" alt="hero" />
         </section>
-
-
     </div>
 }
 
