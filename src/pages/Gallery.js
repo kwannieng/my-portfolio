@@ -6,6 +6,7 @@ import Project from "../components/Project";
 const Gallery = () =>{
     return <div>
         <Header/>
+        <h1>My Projects</h1>
         <Project/>;
 </div>
 }

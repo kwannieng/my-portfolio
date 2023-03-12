@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Component } from "react";
-import Gallery from "./pages/Gallery";
-import Project1 from "./pages/Project1";
-import Project2 from "./pages/Project2";
-import Project3 from "./pages/Project3";
-import Project4 from "./pages/Project4";
-import Project5 from "./pages/Project5";
-import Project6 from "./pages/Project6";
+import NavTabs from "./NavTabs";
+import Project1 from "../pages/Project1";
+import Project2 from "../pages/Project2";
+import Project3 from "../pages/Project3";
+import Project4 from "../pages/Project4";
+import Project5 from "../pages/Project5";
+import Project6 from "../pages/Project6";
 
 // import NavTabs from "./NavTabs";
 
-class Project extends Gallery {
+class Project extends Component {
   state = {
     currentPage: "Project1"
   };
@@ -30,7 +30,7 @@ class Project extends Gallery {
         return <Project4/>;
     } else if (this.state.currentPage === "Project5") {
         return <Project5/>;
-    } else (this.state.currentPage === "Project6") {
+    } else {
         return <Project6/>;
     } 
     };
