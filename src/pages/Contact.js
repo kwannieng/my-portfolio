@@ -1,54 +1,41 @@
 import Header from "../components/Header";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+
 
 const Contact = () =>{
     return <div>
         <section><Header/></section>
+        <h3>Leave Me a Message</h3>
+        <form>
+            <div className="half left cf">
+                <input type="text" id="input-name" placeholder="Name"/>
+                <input type="email" id="input-email" placeholder="Email address"/>
+                <input type="text" id="input-subject" placeholder="Subject"/>
+            </div>
+            <div className="half right cf">
+                <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            </div>  
+            <input type="submit" value="Submit" id="input-submit"/>
+        </form>
+
+        <div>
+            <h3>Or if you would like to connect by:</h3>
+            <a></a>
+            <a></a>
+            <a></a>
+<FontAwesomeIcon icon={solid('envelope')} />
+<FontAwesomeIcon icon={brands('github')} />
+<FontAwesomeIcon icon={brands('linkedin')} />
+
+        </div>
+
+        <div>
+        <FontAwesomeIcon icon={solid('file-pdf')} />
+        </div>
     </div>
 }
 
 export default Contact;
-
-
-
-// Contact page:
-
-// Must include contact information:
-
-// Email address
-
-// Link to a PDF version of your CV
-
-// Link to your GitHub profile
-
-// Link to your LinkedIn page
-
-// Must have a contact form for handling events
-
-
-// Your name
-
-// Links to your:
-
-// GitHub profile
-
-// LinkedIn page
-
-// Email address
-
-// Phone number (optional)
-
-// CV (in PDF format)
-
-
-
-// Your CV must contain up-to-date projects and professional experience
-// A list of projects (Challenges or Projects). For each project, make sure you have the following:
-
-// Project title
-
-// Link to the deployed version
-
-// Link to the GitHub repository
-
-// GIF or screenshot of the deployed application
