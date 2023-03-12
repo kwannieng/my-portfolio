@@ -1,17 +1,27 @@
 nav.navbar.navbar-default {
     margin-bottom: 0;
+
   }
 
 .navbar-nav>li{
-text-decoration: none !important;
 float: left;
 height: 50px;
 padding: 15px 15px;
 font-size: 18px;
 line-height: 20px;
+
 }
 
+.navbar{
+  background-color:rgb(158, 210, 198);
+}
 
-body{
-  text-decoration: none !important;
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar-nav>li>a {
+  color: rgb(233, 218, 193);
+  font-weight: bold;
 }

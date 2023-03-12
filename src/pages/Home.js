@@ -14,7 +14,7 @@ const Home = ({name, title}) =>{
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h1>Welcome!</h1>
+          <h2>Welcome!</h2>
         </Col>
       </Row>
       <Row>
