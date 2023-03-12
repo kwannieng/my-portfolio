@@ -1,9 +1,14 @@
-import Header from "../components/Header";
+import React from "react";
 
-const Project = () =>{
-    return <div>
-        <section><Header/></section>
-    </div>
+const Project1 =()=>{
+return <div className="container-fluid">
+    <h2>Kitten Diary</h2>
+    <img/>
+    <p>Deployed Link:</p>
+
+
+
+</div>
 }
 
-export default Project;
+export default Project1;
