@@ -14,13 +14,13 @@ const Home = ({name, title}) =>{
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h2>Welcome!</h2>
+          <h2>Welcome to my portfolio stie!</h2>
         </Col>
       </Row>
       <Row>
         <Col size="md-12">
             <p>
-            My name is Kwannie NG - a passionate Front-End Engineer (and a cat-lover). This is my portfolio stie.
+            My name is Kwannie NG - a passionate Front-End Engineer (and a cat-lover). 
             <br/>
             In this site, you will find out who I am, what projects I have done. 
             <br/>

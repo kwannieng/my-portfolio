@@ -1,9 +1,6 @@
 import Header from "../components/Header";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
-
 
 const Contact = () =>{
     return <div>
@@ -23,17 +20,14 @@ const Contact = () =>{
 
         <div>
             <h3>Or if you would like to connect by:</h3>
-            <a></a>
-            <a></a>
-            <a></a>
-<FontAwesomeIcon icon={solid('envelope')} />
-<FontAwesomeIcon icon={brands('github')} />
-<FontAwesomeIcon icon={brands('linkedin')} />
-
+            <h3><a href="https://www.linkedin.com/" target="blank">Linkedin</a></h3>
+            <h3><a href="https://github.com/kwannieng" target="blank">GitHub</a></h3>
+            <h3><a href ="mailto: kwannienng@gmail.com" target="blank">Email</a></h3>
+            
         </div>
 
         <div>
-        <FontAwesomeIcon icon={solid('file-pdf')} />
+        <h3>Please also download my CV <a href="https://github.com/kwannieng/my-portfolio/raw/main/asset/KwannieCV.pdf"> here </a> for further details.</h3>
         </div>
     </div>
 }

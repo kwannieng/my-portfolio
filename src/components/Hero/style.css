@@ -29,4 +29,22 @@
     color: rgb(247, 236, 222);
     font-size: 15em;
   }
+
+  @media screen and (max-width: 1300px){
+    .hero h1{
+      font-size: 12em;
+    }
+    .hero {
+      height: 50%;
+    }
+
+  }
   
+  @media screen and (max-width: 800px){
+    .hero h1{
+      font-size: 6em;
+    }
+    .hero {
+      height: 20%;
+    }
+  }

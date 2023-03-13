@@ -7,6 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(247, 236, 222) !important;
+  color:rgb(42, 117, 93) !important;
+
 }
 
 .screenshot{
@@ -30,6 +32,13 @@ a{
 h1, h3{
 display: flex;
 justify-content: center;
+}
+
+h3>a{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding:0;
 }
 
 form {
@@ -71,3 +80,4 @@ input, textarea {
 .left {
     margin-right: 2%; 
 }
+
